@@ -1,0 +1,10 @@
+{
+  "name": "LDAPJS Node.js CI",
+  "description": "Baseline common CI tasks for Node.js modules.",
+  "categories": [
+    "Node.js"
+  ],
+  "filePatterns": [
+    "package.json$"
+  ]
+}
