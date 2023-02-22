@@ -12,7 +12,7 @@ jobs:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     strategy:
       matrix:
-        node_version: [14, 16, 17]
+        node_version: [16, 17, 18]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
